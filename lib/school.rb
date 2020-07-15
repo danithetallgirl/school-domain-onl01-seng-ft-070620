@@ -18,7 +18,7 @@
   end
 
   def sort
-    @roster.each do |key, value|
+    @roster.each do |key, value| #grade is key, value is name.
       value.sort!
     end
   end

@@ -5,9 +5,9 @@
     @roster = {}
   end
 
-  def roster
-    @roster
-  end
+  #def roster
+   # @roster
+  #end
 
   def add_student(name, grade)
     if @roster[grade] != nil
@@ -17,9 +17,9 @@
     end
   end
 
-  def grade(grade)
-    @roster[grade]
-  end
+  #def grade(grade)
+   # @roster[grade]
+  #end
 
   def sort
     @roster.each do |key, value|
